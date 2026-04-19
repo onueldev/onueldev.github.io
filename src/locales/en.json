@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "about": "About",
+    "services": "Services",
+    "tech": "Tech Stack",
+    "process": "Process",
+    "contact": "Contact",
+    "cta": "Start a Project"
+  },
+  "hero": {
+    "badge": "A development company that grows diligently every day",
+    "title1": "A Journey of",
+    "title2": "Development",
+    "subtitle1": "onueldev turns brilliant ideas into reality.",
+    "subtitle2": "With trust and diligence, we move forward step by step.",
+    "cta_primary": "Learn More",
+    "cta_secondary": "Learn More →",
+    "scroll": "scroll"
+  },
+  "about": {
+    "label": "About Us",
+    "title1": "One Step a Day,",
+    "title2": "Steady Growth",
+    "desc_l1": "onueldev is a studio that proves itself through skill.",
+    "desc_l2": "Like stars shining quietly in their own place in the universe,",
+    "desc_l3": "built on the latest technologies and proven methodologies,",
+    "desc_l4": "we find the balance between speed and quality — and deliver the best content.",
+    "stat_projects": "Projects Completed",
+    "stat_experience": "Years of Experience",
+    "stat_satisfaction": "Client Satisfaction",
+    "stat_support": "Technical Support"
+  },
+  "services": {
+    "label": "Services",
+    "title": "What Do We Build?",
+    "subtitle": "Web, apps, games — these are the services onueldev designs and develops in-house.",
+    "web_title": "Web Development",
+    "web_desc": "High-performance web applications using the latest frameworks. Responsive design delivers an optimized experience across all devices.",
+    "mobile_title": "Mobile App",
+    "mobile_desc": "Cross-platform iOS & Android app development. We maximize user satisfaction with native-level performance and intuitive UX.",
+    "ai_title": "Mobile Game",
+    "ai_desc": "We develop mobile games that deliver both fun and immersion. Using Unity and Godot Engine, we provide optimized gaming experiences on both iOS & Android platforms.",
+    "cloud_title": "Cloud Infrastructure",
+    "cloud_desc": "Design and build stable, scalable cloud architecture. Maximize operational efficiency and deployment speed with DevOps automation."
+  },
+  "tech": {
+    "label": "Tech Stack",
+    "title": "Technologies We Use",
+    "subtitle": "We combine proven technologies and modern tools to build optimal solutions."
+  },
+  "process": {
+    "label": "Process",
+    "title": "How Does It Work?",
+    "subtitle": "We ensure project success through a systematic process.",
+    "step1_title": "Idea",
+    "step1_desc": "We analyze market trends and user needs to define the direction of our ideas.",
+    "step2_title": "Design & Planning",
+    "step2_desc": "We design the system architecture and UI/UX. Wireframes and prototypes confirm direction and minimize risk.",
+    "step3_title": "Development & Testing",
+    "step3_desc": "We develop rapidly in an agile manner and test continuously. Code quality and performance are verified throughout the process.",
+    "step4_title": "Deployment & Operations",
+    "step4_desc": "We launch services with a stable deployment pipeline. Monitoring and rapid response maintain service stability."
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Let's Start Together",
+    "subtitle": "Have an idea? Tell us about any project. We'll move forward together toward the stars.",
+    "email_label": "Email",
+    "github_label": "GitHub",
+    "location_label": "Location",
+    "location_value": "Seoul, South Korea",
+    "form_name": "Name",
+    "form_name_placeholder": "John Doe",
+    "form_email": "Email",
+    "form_email_placeholder": "hello@example.com",
+    "form_type": "Project Type",
+    "form_type_placeholder": "Web development, mobile app, AI solution...",
+    "form_message": "Message",
+    "form_message_placeholder": "Tell us freely about your project.",
+    "form_submit": "Send Message →"
+  },
+  "footer": {
+    "copyright": "© 2026 onueldev",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy"
+  }
+}

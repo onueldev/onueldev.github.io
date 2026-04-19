@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "about": "소개",
+    "services": "서비스",
+    "tech": "기술스택",
+    "process": "프로세스",
+    "contact": "문의",
+    "cta": "프로젝트 시작"
+  },
+  "hero": {
+    "badge": "매일 성실하게 발전하는 개발사",
+    "title1": "우주를 향한",
+    "title2": "개발의 여정",
+    "subtitle1": "onueldev는 별처럼 빛나는 아이디어를 현실로 만듭니다.",
+    "subtitle2": "신뢰와 성실함으로, 매일 한 걸음씩 앞으로 나아갑니다.",
+    "cta_primary": "더 알아보기",
+    "cta_secondary": "더 알아보기 →",
+    "scroll": "scroll"
+  },
+  "about": {
+    "label": "About Us",
+    "title1": "매일 한 걸음,",
+    "title2": "꾸준한 성장",
+    "desc_l1": "onueldev는 실력으로 증명하는 개발사입니다.",
+    "desc_l2": "우주의 별처럼 각자의 자리에서 묵묵히 빛나며,",
+    "desc_l3": "최신기술과 검증된 방법론을 바탕으로,",
+    "desc_l4": "빠른 개발과 높은 품질 사이의 균형을 찾아 최적의 컨텐츠를 제공합니다.",
+    "stat_projects": "완료된 프로젝트",
+    "stat_experience": "년 개발 경험",
+    "stat_satisfaction": "클라이언트 만족도",
+    "stat_support": "기술 지원"
+  },
+  "services": {
+    "label": "Services",
+    "title": "무엇을 만들까요?",
+    "subtitle": "웹, 앱, 게임까지 — onueldev가 직접 기획하고 개발합니다.",
+    "web_title": "웹 개발",
+    "web_desc": "최신 프레임워크를 활용한 고성능 웹 애플리케이션. 반응형 디자인으로 모든 디바이스에 최적화된 경험을 제공합니다.",
+    "mobile_title": "모바일 앱",
+    "mobile_desc": "iOS & Android 크로스 플랫폼 앱 개발. 네이티브 수준의 성능과 직관적인 UX로 사용자 만족도를 극대화합니다.",
+    "ai_title": "모바일 게임",
+    "ai_desc": "재미와 몰입감을 동시에 잡는 모바일 게임을 개발합니다. Unity와 Godot Engine으로 iOS & Android 양 플랫폼에 최적화된 게임 경험을 제공합니다.",
+    "cloud_title": "클라우드 인프라",
+    "cloud_desc": "안정적이고 확장 가능한 클라우드 아키텍처 설계 및 구축. DevOps 자동화로 운영 효율과 배포 속도를 높입니다."
+  },
+  "tech": {
+    "label": "Tech Stack",
+    "title": "사용하는 기술들",
+    "subtitle": "검증된 기술과 최신 도구를 조합하여 최적의 컨텐츠를 구현합니다."
+  },
+  "process": {
+    "label": "Process",
+    "title": "어떻게 진행되나요?",
+    "subtitle": "체계적인 프로세스로 진행됩니다.",
+    "step1_title": "아이디어",
+    "step1_desc": "시장의 흐름과 사용자의 니즈를 분석하여 아이디어 방향을 정합니다.",
+    "step2_title": "설계 & 기획",
+    "step2_desc": "시스템 아키텍처와 UI/UX를 설계합니다. 와이어프레임과 프로토타입으로 방향을 확인하고 리스크를 최소화합니다.",
+    "step3_title": "개발 & 테스트",
+    "step3_desc": "애자일 방식으로 빠르게 개발하고 지속적으로 테스트합니다. 코드 품질과 성능을 지속적으로 검증하며 진행합니다.",
+    "step4_title": "배포 & 운영",
+    "step4_desc": "안정적인 배포 파이프라인으로 서비스를 런칭합니다. 모니터링과 빠른 대응으로 서비스의 안정성을 유지합니다."
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "함께 시작해요",
+    "subtitle": "아이디어가 있으신가요? 어떤 프로젝트든 이야기해 주세요. 함께 우주를 향해 나아가겠습니다.",
+    "email_label": "이메일",
+    "github_label": "GitHub",
+    "location_label": "위치",
+    "location_value": "Seoul, South Korea",
+    "form_name": "이름",
+    "form_name_placeholder": "홍길동",
+    "form_email": "이메일",
+    "form_email_placeholder": "hello@example.com",
+    "form_type": "프로젝트 유형",
+    "form_type_placeholder": "웹 개발, 모바일 앱, AI 솔루션...",
+    "form_message": "내용",
+    "form_message_placeholder": "프로젝트에 대해 자유롭게 말씀해 주세요.",
+    "form_submit": "메시지 보내기 →"
+  },
+  "footer": {
+    "copyright": "© 2026 onueldev",
+    "about": "소개",
+    "services": "서비스",
+    "contact": "문의",
+    "terms": "이용약관",
+    "privacy": "개인정보처리방침"
+  }
+}
