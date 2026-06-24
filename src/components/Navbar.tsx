@@ -73,9 +73,7 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const logoTextRef = useRef<HTMLDivElement>(null);
   const [logoWidth, setLogoWidth] = useState(158);
-  const [isDesktop, setIsDesktop] = useState(
-    () => window.matchMedia("(min-width: 1024px)").matches
-  );
+  const [isDesktop, setIsDesktop] = useState(false);
 
   useEffect(() => {
     const el = logoTextRef.current;
@@ -103,6 +101,9 @@ export default function Navbar() {
 
   useEffect(() => {
     const mq = window.matchMedia("(min-width: 1024px)");
+    // 마운트 시 1회만 실제 뷰포트를 반영한다(SSR/프리렌더와 hydration을 맞추기 위한 의도적 보정).
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setIsDesktop(mq.matches);
     const onChange = () => setIsDesktop(mq.matches);
     mq.addEventListener("change", onChange);
     return () => mq.removeEventListener("change", onChange);
