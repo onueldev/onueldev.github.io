@@ -1,17 +1,5 @@
-import { createContext, useContext, useState, useEffect } from "react";
-
-type Theme = "dark" | "light";
-
-interface ThemeCtx {
-  isDark: boolean;
-  toggleTheme: () => void;
-}
-
-const ThemeContext = createContext<ThemeCtx>({ isDark: false, toggleTheme: () => {} });
-
-export const useTheme = () => useContext(ThemeContext);
-
-const STORAGE_KEY = "theme";
+import { useState, useEffect } from "react";
+import { ThemeContext, STORAGE_KEY, type Theme } from "./theme-context";
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
   // SSR/프리렌더 시 window가 없으므로 라이트를 기본으로 시작하고, 클라이언트에서 저장된 선택을 반영한다.

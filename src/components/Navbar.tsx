@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { useTheme } from "../contexts/ThemeContext";
+import { useTheme } from "../contexts/theme-context";
 
 function FlyingComet({ isDark, width }: { isDark: boolean; width: number }) {
   const head = isDark ? "#BAE6FD" : "#0284C7";

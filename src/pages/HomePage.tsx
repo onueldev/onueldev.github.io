@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import StarField from "../components/StarField";
 import Navbar from "../components/Navbar";
-import { useTheme } from "../contexts/ThemeContext";
+import { useTheme } from "../contexts/theme-context";
 import { Link } from "react-router-dom";
 
 // ─── Static icon/tag data (language-independent) ─────────────────────────────
