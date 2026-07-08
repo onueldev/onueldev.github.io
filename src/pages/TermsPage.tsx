@@ -50,7 +50,7 @@ export default function TermsPage() {
           </p>
         </div>
 
-        <div className={`border rounded-2xl p-8 space-y-8 ${cardBg}`}>
+        <div className={`border rounded-2xl p-8 space-y-8 break-keep ${cardBg}`}>
 
           {isKo ? (
             <>
