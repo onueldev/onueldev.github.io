@@ -159,7 +159,7 @@ export default function HomePage() {
               <h2 className={`text-4xl md:text-5xl font-bold ${text} mb-4`}>{t("services.title")}</h2>
               <p className={`${faint} max-w-xl mx-auto text-base md:text-lg`}>{t("services.subtitle")}</p>
             </div>
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            <div className="grid md:grid-cols-3 gap-5">
               {servicesMeta.map((s) => (
                 <div key={s.key} className={`card-glow rounded-2xl p-7 ${card60} backdrop-blur-sm flex flex-col items-center text-center gap-4`}>
                   <div className={`w-12 h-12 rounded-xl bg-[#6366F1]/15 border border-[#6366F1]/25 flex items-center justify-center ${starlight}`}>
