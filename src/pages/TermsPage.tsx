@@ -63,7 +63,7 @@ export default function TermsPage() {
               <section>
                 <h2 className={`text-lg font-bold mb-3 ${sectionTitle}`}>1. 서비스 이용</h2>
                 <ul className={`text-sm space-y-2 list-disc list-inside ${textColor}`}>
-                  <li>"서비스"란 회사가 제공하는 모바일 애플리케이션 및 웹 서비스 등 모든 디지털 서비스를 의미합니다.</li>
+                  <li>"서비스"란 회사가 제공하는 모바일 애플리케이션, 게임, 웹 서비스 등 모든 디지털 서비스를 의미합니다.</li>
                   <li>13세 미만의 아동은 보호자의 동의 없이 서비스를 이용할 수 없습니다.</li>
                   <li>서비스의 정상적인 운영을 방해하는 행위는 금지됩니다.</li>
                 </ul>
@@ -136,7 +136,7 @@ export default function TermsPage() {
               <section>
                 <h2 className={`text-lg font-bold mb-3 ${sectionTitle}`}>1. Use of the Service</h2>
                 <ul className={`text-sm space-y-2 list-disc list-inside ${textColor}`}>
-                  <li>"Service" refers to all digital services provided by the Company, including mobile applications and web services.</li>
+                  <li>"Service" refers to all digital services provided by the Company, including mobile applications, games, and web services.</li>
                   <li>Children under 13 may not use the service without parental consent.</li>
                   <li>Any actions that interfere with the normal operation of the Service are prohibited.</li>
                 </ul>
