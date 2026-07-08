@@ -81,11 +81,6 @@ export default function PrivacyPage() {
                       <li>iOS: IDFA, Android: GAID</li>
                     </ul>
                   </li>
-                  <li>기기 캘린더 (캘린더 연동 동의 시)
-                    <ul className={subList}>
-                      <li>할일 제목, 메모, 일정 시간 (기기 내 저장, 외부 전송 없음)</li>
-                    </ul>
-                  </li>
                 </ul>
               </section>
               <div className={`border-t ${divider}`} />
@@ -95,7 +90,6 @@ export default function PrivacyPage() {
                   <li>위치 정보: 홈 화면에 현재 위치의 날씨·미세먼지 정보 표시</li>
                   <li>사진·미디어: 일기·메모에 이미지 첨부</li>
                   <li>광고 식별자: 맞춤형 광고 제공 (Google AdMob)</li>
-                  <li>기기 캘린더: 생일·기념일 카테고리 할일을 시스템 캘린더에 자동 등록</li>
                 </ul>
               </section>
               <div className={`border-t ${divider}`} />
@@ -158,7 +152,6 @@ export default function PrivacyPage() {
                   <li>동의 철회:
                     <ul className={subList}>
                       <li>위치 정보: 기기 설정에서 위치 권한 해제 (권한 없이도 IP 기반으로 동작)</li>
-                      <li>캘린더 연동: 앱 설정에서 연동 해제</li>
                       <li>광고 식별자: 기기 설정에서 광고 추적 제한</li>
                     </ul>
                   </li>
@@ -206,11 +199,6 @@ export default function PrivacyPage() {
                       <li>iOS: IDFA, Android: GAID</li>
                     </ul>
                   </li>
-                  <li>Device calendar (when you agree to calendar integration)
-                    <ul className={subList}>
-                      <li>Task titles, notes, scheduled times (stored on device, not transmitted externally)</li>
-                    </ul>
-                  </li>
                 </ul>
               </section>
               <div className={`border-t ${divider}`} />
@@ -220,7 +208,6 @@ export default function PrivacyPage() {
                   <li>Location information: Displaying current-location weather and air quality on the home screen</li>
                   <li>Photos and media: Attaching images in journals and notes</li>
                   <li>Advertising identifier: Personalized ads (Google AdMob)</li>
-                  <li>Device calendar: Automatic registration of birthday/anniversary tasks to system calendar</li>
                 </ul>
               </section>
               <div className={`border-t ${divider}`} />
@@ -282,7 +269,6 @@ export default function PrivacyPage() {
                   <li>Withdrawal of consent:
                     <ul className={subList}>
                       <li>Location information: Revoke the location permission in device settings (the app still works using IP-based location)</li>
-                      <li>Calendar integration: Disable integration in app settings</li>
                       <li>Advertising identifier: Limit ad tracking in device settings</li>
                     </ul>
                   </li>
